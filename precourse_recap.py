@@ -10,9 +10,9 @@ heating = 90
 total_bills = rent + ctax + internet + heating
 total_bills_per_person = (rent + ctax + internet + heating)/3
 
-flatmate_1.capitalize()
+list_sentence = f"{flatmate_1} {flatmate_2} {flatmate_3}"
 
-list_of_flatmates = f"{flatmate_1} {flatmate_2} {flatmate_3}"
+list_of_flatmates = list_sentence.capitalize()
 list_of_human_flatmates = f"{flatmate_1} {flatmate_2}"
 list_of_feline_flatmates = f"{flatmate_3}"
 total_utilities = ctax + internet + heating
